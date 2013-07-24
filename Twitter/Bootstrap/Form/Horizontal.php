@@ -30,8 +30,8 @@ class Twitter_Bootstrap_Form_Horizontal extends Twitter_Bootstrap_Form
             array('Addon'),
             array('ElementErrors'),
             array('Description', array('tag' => 'p', 'class' => 'help-block')),
-            array('HtmlTag', array('tag' => 'div', 'class' => 'controls')),
-            array('Label', array('class' => 'control-label')),
+            array('HtmlTag', array('tag' => 'div', 'class' => 'col-lg-10')),
+            array('Label', array('class' => 'control-label col-lg-2')),
             array('Wrapper')
         ));
         

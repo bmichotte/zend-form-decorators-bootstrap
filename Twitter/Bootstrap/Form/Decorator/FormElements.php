@@ -64,10 +64,6 @@ class Twitter_Bootstrap_Form_Decorator_FormElements extends Zend_Form_Decorator_
                 }
             }
             
-            // Add form-control class
-            $class = $item->getAttrib('class');
-            $item->setAttrib('class', $class . ' form-control');
-
             // Check if has errors
             if ($item instanceof Zend_Form_Element && $item->hasErrors()) {
                 $class = $item->getAttrib('class');

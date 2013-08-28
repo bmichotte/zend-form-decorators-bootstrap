@@ -63,7 +63,7 @@ class Twitter_Bootstrap_Form_Decorator_FormElements extends Zend_Form_Decorator_
                     $element->setBelongsTo($belongsTo);
                 }
             }
-
+            
             // Check if has errors
             if ($item instanceof Zend_Form_Element && $item->hasErrors()) {
                 $class = $item->getAttrib('class');
